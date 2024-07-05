@@ -1,0 +1,14 @@
+﻿@page "/"
+
+<div id="content">
+    <MudCard Style="margin: auto; widht: 300px; padding: 20px;">
+        <MudCardContent>
+            <MudForm @ref="urlSubmitForm">
+                <MudText>Generador codigo QR</MudText>
+                <MudTextField @bind-Value="SubmittedUrl" Label="URL"
+                HelperText="e.g. https://google.com" Variant="Variant.Outlined"
+                Required="true" RequiredError="La URL es requerida"></MudTextField>
+            </MudForm>
+        </MudCardContent>
+    </MudCard>
+</div>

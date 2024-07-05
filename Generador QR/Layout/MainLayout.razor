@@ -1,0 +1,21 @@
+﻿@inherits LayoutComponentBase
+<MudThemeProvider />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<div class="page">
+    <main>
+      <MudLayout>
+          <MudAppBar Elevation="1" Dense="true">
+              <MudIconButton Icon="@Icons.Material.Filled.QrCode" Color="Color.Inherit" Edge="Edge.Start"></MudIconButton>
+              <MudText>Generador QR</MudText>
+          </MudAppBar>
+      </MudLayout>
+      <MudMainContent>
+        <div class="content px-4">
+            @Body
+        </div>
+        </MudMainContent>
+    </main>
+</div>
