@@ -101,3 +101,53 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+#content {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width:auto;
+    overflow-x:hidden;
+    padding-bottom:6rem;
+}
+
+#content img{
+    margin: auto;
+}
+
+#content input{
+    width: 200px;
+    margin: auto;
+}
+
+#content button{
+    width:auto;
+    margin-left: 1px;
+}
+
+#content label{
+    margin-right: 166px;
+    margin-bottom: 0;
+}
+
+.qr-container{
+    margin: 20px;
+    margin-bottom: 5px;
+}
+
+.qr-container img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.paper-class{
+    width: 440px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}

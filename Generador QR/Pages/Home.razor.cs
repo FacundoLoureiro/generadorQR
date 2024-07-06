@@ -10,9 +10,9 @@ namespace Generador_QR.Pages
         public string SubmittedUrl { get; set; }
         public string QRCodeText { get; set; }
 
-        private async Task SubmittedUrl()
+        private async Task SubmitUrl()
         {
-            async urlSubmitForm.Validate();
+            await urlSubmitForm.Validate();
             if(urlSubmitForm.IsValid)
                 GenerateQRCode();
         }

@@ -14,4 +14,15 @@
             </MudForm>
         </MudCardContent>
     </MudCard>
+    @if (!string.IsNullOrEmpty(QRCodeText))
+    {
+        <MudPaper MaxWidth="auto" Style="margin:auto">
+            <div class="qr-container">
+                <img width="400" height="400" src="@QRCodeText" />
+            </div>
+        </MudPaper>
+
+    }
+
+    
 </div>
