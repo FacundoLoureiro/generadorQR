@@ -20,35 +20,39 @@ Es rápida, fácil de usar y perfecta para compartir enlaces de manera eficiente
 Sigue estos pasos para clonar y ejecutar la aplicación en tu entorno local:
 
 
-Clonar el repositorio:
+1- Clonar el repositorio:
 
 
 Abre tu terminal y usa el siguiente comando:
 
+```
 git clone https://github.com/FacundoLoureiro/generadorQR.git
+```
 
+2- Navegar al directorio del proyecto:
 
-Navegar al directorio del proyecto:
-
+```
 cd generadorQR
+```
 
-
-Restaurar las dependencias:
-
+3- Restaurar las dependencias:
 
 Ejecuta el siguiente comando para restaurar los paquetes necesarios:
 
+```
 dotnet restore
+```
 
-
-Ejecutar la aplicación:
+4- Ejecutar la aplicación:
 
 Inicia la aplicación con el comando:
 
+```
 dotnet run
+```
 
 Luego, abre tu navegador y accede a:
 
 http://localhost:5000
 
-¡Listo! Ya puedes comenzar a generar códigos QR ingresando tus enlaces en la aplicación.
+5- ¡Listo! Ya puedes comenzar a generar códigos QR ingresando tus enlaces en la aplicación.
